@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+
+p {
+    border: 1px solid black;
+}
+
+#chosen {
+    font-weight: bold;
+}
+
+.mark {
+    font-style: italic;
+}
+
+p:hover {
+    text-transform: uppercase;
+    color: red;
+    background-color: black;
+    transform: rotate(180deg);
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
